@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Antibiotikareferens</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <table class="ref-table" id="beta-lactam-table">
+      <thead>
+        <tr>
+          <th rowspan="2" class="ref-table__header--main-group"></th>
+          <th rowspan="2" class="ref-table__header--group">Grupp</th>
+          <th rowspan="2" class="ref-table__header--drug">Preparat</th>
+          <th colspan="3" class="ref-table__header--gram-positive">G+</th>
+          <th colspan="3" class="ref-table__header--gram-negative">G-</th>
+          <th rowspan="2" class="ref-table__header--bacteria ref-table--mycoplasma">Myko- plasma</th>
+          <th rowspan="2" class="ref-table__header--bacteria ref-table--anaerobes">Anaerober</th>
+          <th rowspan="2" class="ref-table__header--indication">Indikation</th>
+        </tr>
+        <tr>
+          <th class="ref-table__header--bacteria ref-table--streptococci">Streptokocker</th>
+          <th class="ref-table__header--bacteria ref-table--s-aureus">S. aureus</th>
+          <th class="ref-table__header--bacteria ref-table--enterococci">Enterokocker</th>
+          <th class="ref-table__header--bacteria ref-table--h-influenzae">H. influenzae</th>
+          <th class="ref-table__header--bacteria ref-table--e-coli">E. coli</th>
+          <th class="ref-table__header--bacteria ref-table--pseudomonas">Pseudo- monas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="13" class="ref-table__main-group ref-table__main-group--beta-lactam">
+            <div class="ref-table__main-group__label">&#946;-laktamantibiotika</div>
+          </td>
+          <td rowspan="9" class="ref-table__group ref-table__group--penicillins">Penicilliner</td>
+          <td>
+            <div class="ref-table__drug">PcV</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td rowspan="2">Tonsillit, otit, pneumoni, erysipelas</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Bensyl-Pc</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug">Amoxicillin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td></td>
+          <td class="ref-table--enterococci"></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Pneumoni</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug">Amoxicillin-klavulansyra</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td class="ref-table--enterococci"></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--anaerobes ref-table--weak"></td>
+          <td rowspan="2">Meningit</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Ampicillin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td></td>
+          <td class="ref-table--enterococci"></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug">Flukloxacillin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td rowspan="2">Hudinfektioner, abscesser</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Kloxacillin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug">Mecillinam</div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--e-coli"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>UVI</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Piperacillin-tazobaktam</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td class="ref-table--enterococci"></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td class="ref-table--anaerobes"></td>
+          <td>Sepsis, bukinfektioner</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="ref-table__group ref-table__group--cephalosporins">Cefalosporiner</td>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Cefotaxim</div>
+            <div class="ref-table__drug ref-table__drug--secondary ref-table__drug--iv">Ceftriaxon</div>
+            <div class="ref-table__drug ref-table__drug--secondary ref-table__drug--iv">Cefuroxim</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Sepsis, UVI, pneumoni, meningit</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Ceftazidim</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td></td>
+          <td>Sepsis/UVI</td>
+        </tr>
+        <tr>
+          <td rowspan="2" class="ref-table__group ref-table__group--carbapenems">Karbapenemer</td>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Imipenem</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td class="ref-table--enterococci ref-table--weak"></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td class="ref-table--anaerobes"></td>
+          <td rowspan="2">Svår sepsis, resistenta bakterier</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Meropenem</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td class="ref-table--anaerobes"></td>
+        </tr>
+        <tr>
+          <td rowspan="12" class="ref-table__main-group ref-table__main-group--other">
+            <div class="ref-table__main-group__label">Övriga antibiotika</div>
+          </td>
+          <td rowspan="2" class="ref-table__group ref-table__group--aminoglycosides">Aminoglykosider</td>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Gentamicin</div>
+          </td>
+          <td></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td></td>
+          <td rowspan="2">Svår sepsis, endokardit</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Amikacin</div>
+          </td>
+          <td></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="3" class="ref-table__group ref-table__group--quinolones">Kinoloner</td>
+          <td>
+            <div class="ref-table__drug">Ciprofloxacin</div>
+          </td>
+          <td></td>
+          <td class="ref-table--s-aureus ref-table--weak"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td></td>
+          <td></td>
+          <td>Pyelonefrit</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug">Levofloxacin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td class="ref-table--pseudomonas"></td>
+          <td class="ref-table--mycoplasma"></td>
+          <td></td>
+          <td rowspan="2">Svår pneumoni</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="ref-table__drug">Moxifloxacin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td></td>
+          <td class="ref-table--mycoplasma"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--antifolate">Folsyraantagonister</td>
+          <td>
+            <div class="ref-table__drug">Trimetoprim-sulfa</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td class="ref-table--e-coli"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>UVI</td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--nitrofurantoin">Nitrofurantoin</td>
+          <td>
+            <div class="ref-table__drug">Nitrofurantoin</div>
+          </td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--enterococci"></td>
+          <td></td>
+          <td class="ref-table--e-coli"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Cystit</td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--tetracyclines">Tetracykliner</td>
+          <td>
+            <div class="ref-table__drug">Doxycyklin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--h-influenzae"></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--mycoplasma"></td>
+          <td></td>
+          <td rowspan="2">Atypisk pneumoni</td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--macrolides">Makrolider</td>
+          <td>
+            <div class="ref-table__drug">Erythromycin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--mycoplasma"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--lincosamides">Linkosamider</td>
+          <td>
+            <div class="ref-table__drug">Klindamycin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--anaerobes"></td>
+          <td>Hudinfektioner</td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--glycopeptides">Glykopeptider</td>
+          <td>
+            <div class="ref-table__drug ref-table__drug--iv">Vankomycin</div>
+          </td>
+          <td class="ref-table--streptococci"></td>
+          <td class="ref-table--s-aureus"></td>
+          <td class="ref-table--enterococci"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>MRSA</td>
+        </tr>
+        <tr>
+          <td class="ref-table__group ref-table__group--imidazole-derivates">Imidazolderivat</td>
+          <td>
+            <div class="ref-table__drug">Metronidazol</div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="ref-table--anaerobes"></td>
+          <td>Clostridier, bukabscesser</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
