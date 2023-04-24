@@ -141,3 +141,8 @@ body {
 .ref-table .ref-table__drug--iv::after {
   content: "*";
 }
+
+#footnote {
+  margin-top: 20px;
+  font-style: italic;
+}
